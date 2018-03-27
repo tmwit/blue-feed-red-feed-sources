@@ -2,7 +2,7 @@ import pandas as pd
 import csv
 import facebook
 
-sources = csv.DictReader(open('included_sources.csv'))
+sources = csv.DictReader(open('./included_sources.csv'))
 graph = facebook.GraphAPI(access_token='', version='2.12')
 
 final = []
